@@ -1,2 +1,3 @@
-# yeni_google
-Yeni Google Tasarımı
+# Yeni Google
+## Yeni Google Tasarımı
+### CSS ÖDEV-3

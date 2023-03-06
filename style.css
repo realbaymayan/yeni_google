@@ -1,0 +1,340 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all{
+    background-color: #f2f2f2;
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    background-color: white;
+    width: 100%;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 198px;
+    background-color: white;
+}
+
+.logo-alt{
+    max-height: 92px;
+    margin-top: auto;
+    background-color: white;
+
+    }
+    
+.logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.btn{
+    padding-top: 12px;
+    text-align: center;
+    float: right; 
+    width: 56px;
+    height: 32px;
+    border-radius: 0px;
+    background-color: white;
+    
+}
+.btn a{
+    color: rgba(0,0,0,.87);
+    font-size: 13px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.btn-2{
+    margin: 10px;
+    border-radius: 50px;
+    text-align: center;
+    float: right; 
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+.btn-2 svg{
+    padding: 8px;
+    fill: #5f6368;
+}
+.btn-2 :hover{
+    background-color: #ddd;
+    border-radius: 50px;
+}
+.btn-3{
+    margin-right: 15px;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+}
+.btn-3 :hover{
+    background-color: #ddd;
+    border-radius: 50px;
+}
+.img-pp{
+    padding: 4px ;
+    border-radius: 20px;
+    width: 32px;
+    height: 32px;
+}
+.src-back{
+    padding: 20px;
+    max-height: 160px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+.search-bar{
+    margin: 0 auto;
+    padding-top: 6px;
+    width: auto;
+    max-width: 584px;
+    position: relative;
+}
+.src-input{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+    align-items: center;
+    
+}
+.src-input:hover{
+    box-shadow: 0px 0px 5px 0px rgba(124,124,124,0.25);
+}
+.src-input input{
+    border: none;
+    line-height: 40px;
+    font-size:16px;
+    width: 100%;
+}
+.src-input input:focus{
+    outline: none;
+    line-height: 40px;
+    
+}
+
+.src-logo{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0 20px;
+    height: 32px;
+    width: 32px;
+}
+.src-camera{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px 0 10px;
+    height: 32px;
+    width: 32px;
+}
+.src-key,.src-voice{
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    height: 32px;
+    width: 32px;
+}
+.src-logo svg, .src-key img,.src-voice svg,.src-camera svg{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.btn-search{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.btn-search:hover, .btn-lucky:hover{
+    border: 1.5px solid #ddd;
+}
+.btn-lucky{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.buttons{
+    padding-top: 18px;
+    height: 70px;
+    display: block;
+}
+.non-item{
+    background-color: white;
+    height: 225px;
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+.non-item p{
+    color: black;
+}
+.novbar-items a{
+    float: left;
+    height: 15px;
+    width: 70px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+}
+.novbar-items{
+    font-size: 15px;
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+.novbar-about{
+    float: left;
+    height: 15px;
+    width: 70px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.novbar-advert{
+    float: left;
+    height: 15px;
+    padding-left: 300px;
+    width: 70px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.novbar-business{
+    float: left;
+    height: 15px;
+    width: 70px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.novbar-search{
+    float: left;
+    height: 15px;
+    padding-left: 300px;
+    width: 70px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.novbar-carbon{
+    float:right;
+    align-items: center;
+    height: 15px;
+    width: 70px;
+    color: #70757a;
+    display: block;
+    padding-right: 800px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 15px;
+    font-family: arial,sans-serif;
+}
+.novbar-settings{
+    float: right;
+    height: 15px;
+    width: 40px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.novbar-terms{
+    float: right;
+    height: 15px;
+    width: 40px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.novbar-privacy{
+    float: right;
+    height: 15px;
+    width: 40px;
+    background-color: #f2f2f2;
+    display: block;
+    padding: 15px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+footer a{
+    text-decoration: none;
+    color: grey;
+}
+footer{
+    border-bottom: 1px solid #dfe1e5;
+}
+
+
